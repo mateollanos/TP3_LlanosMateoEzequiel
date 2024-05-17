@@ -3,31 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Llanos Mateo Ezequiel</title>
+<link rel="stylesheet" href="/css/estilos.css"></link>
 </head>
-<body>
-<header>
-<h1>
-PROGRAMACIÓN EN JAVA
-</h1>
-<nav>
-    <ul>
-      <li><a href="#">Introducción</a></li>
-      <li><a href="#">Tipos de datos en Java</a></li>
-      <li><a href="#">Clases</a></li>
-      <li><a href="#">Métodos</a></li>
+<body class="body">
+<header id="header">
+<h1>PROGRAMACIÓN EN JAVA</h1>
+<nav class="nav">
+    <ul class="ul">
+      <li><a class="a" href="#1">Introducción</a></li>
+      <li><a class="a" href="#2">Tipos de datos en Java</a></li>
+      <li><a class="a" href="#3">Clases</a></li>
+      <li><a class="a" href="#4">Métodos</a></li>
+      <li><a class="a" href="/formulario">Formulario</a></li>
     </ul>
 </nav>
 </header>
-<main>
-	<section>
-		<h2>Introducción</h2>
+<div class="container">
+<main class="main">
+	<section class="section" id="1">
+		<h2 class="titulo">Introducción</h2>
 		
-		<h3>¿Qué es la programación en java?</h3>
+		<h3 class="titulo">¿Qué es la programación en java?</h3>
 		
-		<p>La programación en Java es el proceso de crear software utilizando 
+		<p class="p">La programación en Java es el proceso de crear software utilizando 
 		el lenguaje de programación Java, conocido por su portabilidad y versatilidad.</p>
 		
-		<table>
+		<table class="table">
         <tr>
             <th>Aspecto</th>
             <th>Descripcion</th>
@@ -46,8 +47,9 @@ PROGRAMACIÓN EN JAVA
         </tr>
     </table>
 	</section>
-		<h2>Tipos de datos en java</h2>
-		<h3>Datos primitivos</h3>
+	<section class="section" id="2">
+		<h2 class="titulo">Tipos de datos en java</h2>
+		<h3 class="titulo">Datos primitivos</h3>
 		<ul>
 			<li>byte: Entero de 8 bits con signo.</li>
 	        <li>short: Entero de 16 bits con signo.</li>
@@ -58,38 +60,45 @@ PROGRAMACIÓN EN JAVA
 	        <li>char: Representa un único carácter Unicode de 16 bits.</li>
 	        <li>boolean: Representa un valor booleano, que puede ser true o false.</li>
 		</ul>
-		<h3>Datos de referencia</h3>
+		<h3 class="titulo">Datos de referencia</h3>
 		<h4>Algunos datos de referencia son:</h4>
 		<ul>
 			<li>String: Secuencia de caracteres.</li>
 		    <li>ArrayList: Colección dinámica de objetos.</li>
 		    <li>Object: Clase base para todos los tipos de datos en Java.</li>
 		</ul>
-	<section>
-		<h2>Clases</h2>
-		<h3>¿Qué son las clases en java?</h3>
-		<p> Las clases en Java son plantillas para crear objetos. Definen las propiedades y comportamientos 
+	</section>
+	<section class="section" id="3">
+		<h2 class="titulo">Clases</h2>
+		<h3 class="titulo">¿Qué son las clases en java?</h3>
+		<p class="p"> Las clases en Java son plantillas para crear objetos. Definen las propiedades y comportamientos 
 			que los objetos de ese tipo comparten. Las clases permiten organizar y estructurar el código de 
 			manera modular y reutilizable en la programación orientada a objetos. </p>
 	</section>
-		<h2>Métodos</h2>
-		<h3>¿Qué son los métodos en java?</h3>
-		<p> Los métodos en Java son bloques de código que realizan tareas específicas y pueden ser invocados 
+	<section class="section" id="4">
+		<h2 class="titulo">Métodos</h2>
+		<h3 class="titulo">¿Qué son los métodos en java?</h3>
+		<p class="p"> Los métodos en Java son bloques de código que realizan tareas específicas y pueden ser invocados 
 		desde otras partes del programa. Se definen dentro de una clase y representan comportamientos o 
 		acciones que los objetos de esa clase pueden realizar. Los métodos permiten modularizar el código y 
 		reutilizar la lógica en diferentes partes del programa.</p>
-	
+	</section>
+		
 </main>
-
-<aside>
-      <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank">  Más información 
-      <img src="/images/imagenJava.png" alt="Imagen de Java"></a>
+<aside class="recursos">
+	<div class="recursos1">
+		<a class="a" href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank">Más información<br>
+        <img class="img" src="/images/imagenJava.png" alt="Imagen de Java" width="100" height="100"> </a>
+	</div> 
 </aside>
-<footer>
-	 <h2>Contacto</h2>
-     <p>Correo Electrónico: llanosmateo321@gmail.com</p>
-     <p>Síguenos en redes sociales:</p>
-     <a href="https://www.facebook.com/?locale=es_LA">Facebook</a>
+</div>
+<footer id="footer">
+	 <h2 class="titulo">Contacto</h2>
+     <p class="p">Correo Electrónico: llanosmateo321@gmail.com</p>
+     <p class="p">Síguenos en redes sociales:</p>
+     <a class="a" href="https://www.facebook.com/" target="_blank">Facebook</a>
+     <a class="a" href="https://www.instagram.com/" target="_blank">Instagram</a>
+	 <a class="a" href="https://www.twitter.com/" target="_blank">Twitter</a>
 </footer>
 </body>
 </html>
