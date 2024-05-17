@@ -24,7 +24,6 @@
 	margin:30px;
 	flex:3;
 	text-align:center;
-	width:100%;
 }
 .recursos{
 	flex:1;
@@ -72,13 +71,14 @@ input{
 	border: 1px solid black; 
     padding: 8px;
     border-radius: 5px;
+    width: 25%; 
 }
 .form{
 	font-family: Arial, sans-serif;
     font-size: 16px; 
     margin-bottom: 20px;
     background-color:#0080c0;
-    width: 550px; 
+    width: 50%; 
     margin: 0 auto; 
     text-align: left; 
 	padding: 20px;
@@ -88,10 +88,14 @@ input{
 #sugerencias{
 	border: 1.5px solid black; 
     border-radius: 5px;
+    width: 50%; 
 }
 #provincia{
 	border: 1px solid black; 
     border-radius: 5px;
+}
+#intereses,#generoM,#generoF,#generoX,#tc,#infoRelativa{
+	width: 5%;
 }
 .genero{
 	border: 1px solid black; 
