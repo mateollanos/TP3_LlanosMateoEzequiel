@@ -13,28 +13,28 @@
 	<a class="volver" href="/index">Volver al inicio</a>
 </header>
 <main class="main1">
-	<h1 class="titulo">FORMULARIO DE DATOS</h1>
+	<h1 class="titulo">FORMULARIO DE DATOS</h1> <br>
 	<form class="form">
 		<label for="dni">DNI:</label>
-		<input id="dni" type="number" required placeholder="Ingrese el dni en numeros" name="dni"></input> <br> <br>
+		<input id="dni" type="number" required placeholder="Ingrese el dni en numeros" name="dni"> <br> <br>
 		<label for="nombres">Nombres:</label>
-		<input id="nombres" type="text" required placeholder="Ingrese sus nombres" name="nombres"></input> <br> <br>
+		<input id="nombres" type="text" required placeholder="Ingrese sus nombres" name="nombres"> <br> <br>
 		<label for="apellidos">Apellidos:</label>
-		<input id="apellidos" type="text" placeholder="Ingrese sus apellidos" name="apellidos"></input> <br> <br>
+		<input id="apellidos" type="text" placeholder="Ingrese sus apellidos" name="apellidos"> <br> <br>
 		<label for="fechaNacimiento">Fecha de nacimiento:</label>
-		<input id="fechaNacimiento" type="date" required placeholder="Ingrese la fecha de nacimeinto" name="fechaNacimiento"></input> <br> <br>
+		<input id="fechaNacimiento" type="date" required placeholder="Ingrese la fecha de nacimiento" name="fechaNacimiento"> <br> <br>
 		<div class=genero>
 			<label for="generoM">Masculino:</label>
-			<input id="generoM" type="radio" value="Masculino" name="genero"></input> <br> <br>
+			<input id="generoM" type="radio" value="Masculino" name="genero"> <br> <br>
 			<label for="generoF">Femenino:</label>
-			<input id="generoF" type="radio" value="Femenino" name="genero"></input> <br> <br>
+			<input id="generoF" type="radio" value="Femenino" name="genero"> <br> <br>
 			<label for="generoX">X:</label>
-			<input id="generoX" type="radio" value="X" name="genero"></input> <br> <br>
-		</div> <br> <br>
+			<input id="generoX" type="radio" value="X" name="genero"> <br> 
+		</div> <br> 
 		<label for="correoElectronico">Correo electronico:</label>
-		<input id="correoElectronico" type="email" required placeholder="Ingrese su email" name="correoElectronico"></input> <br> <br>
+		<input id="correoElectronico" type="email" required placeholder="Ingrese su email" name="correoElectronico"> <br> <br>
 		<label for="domicilio">Domicilio:</label>
-		<input id="domicilio" type="text" required placeholder="Ingrese el domicilio" name="domicilio"></input> <br> <br>
+		<input id="domicilio" type="text" required placeholder="Ingrese el domicilio" name="domicilio"> <br> <br>
 		<label for="provincia">Provincia:</label>
 		<select id="provincia" name="provincia">
 			<option value="Jujuy">Jujuy</option>
@@ -44,26 +44,27 @@
 			<option value="Misiones">Misiones</option>
 		</select> <br> <br>
 		<label for="celular">Numero de celular:</label>
-		<input id="celular" type="number" placeholder="Ingrese el numero de celular" name="celular"></input> <br> <br>
-		<label>Categorias de interes:</label>
+		<input id="celular" type="number" placeholder="Ingrese el numero de celular" name="celular"> <br> <br>
+		<label>Categorias de interes:</label> 
+		<br> <br>
 		<div class="genero">
-			<label for="intereses">Fútbol:</label>
-			<input id="intereses" type="checkbox" name="intereses"></input> <br>
-			<label for="intereses">Turismo:</label>
-			<input id="intereses" type="checkbox" name="intereses"></input> <br>
-			<label for="intereses">Gastronomia:</label>
-			<input id="intereses" type="checkbox" name="intereses"></input> <br>
-		</div> <br> <br>
+			<label for="intereses1">Fútbol:</label>
+			<input id="intereses1" type="checkbox" name="intereses"> <br> <br>
+			<label for="intereses2">Turismo:</label>
+			<input id="intereses2" type="checkbox" name="intereses"> <br> <br>
+			<label for="intereses3">Gastronomia:</label>
+			<input id="intereses3" type="checkbox" name="intereses"> <br>
+		</div> <br> 
 		<label for="sugerencias">Sugerencias:</label> <br> <br>
 		<textarea id="sugerencias" placeholder="Ingrese un comentario" name="sugerencias" rows="8" cols="40"></textarea> <br> <br>
 		<label for="password">Password:</label>
-		<input id="password" type="password" required placeholder="Ingrese el password" name="password" maxlength="10" min="4"></input> <br> <br>
+		<input id="password" type="password" required placeholder="Ingrese el password" name="password" maxlength="10" min="4"> <br> <br>
 		<label for="passwordDenuevo">Password nuevamente:</label>
-		<input id="passwordDenuevo" type="password" required placeholder="Password nuevamente" name="passwordDenuevo" maxlength="10" min="4"></input> <br> <br>
+		<input id="passwordDenuevo" type="password" required placeholder="Password nuevamente" name="passwordDenuevo" maxlength="10" min="4"> <br> <br>
 		<label for="tc">Acepto los terminos y condiciones:</label>
-		<input id="tc" type="checkbox" required name="tc"></input> <br> <br>
+		<input id="tc" type="checkbox" required name="tc"> <br> <br>
 		<label for="infoRelativa">Acepto recibir informacion relativa a la empresa:</label>
-		<input id="infoRelativa" type="checkbox" required name="InfRel"></input> <br> <br>
+		<input id="infoRelativa" type="checkbox" required name="InfRel"> <br> <br>
 		<div class="nav">
 			<input type="submit" value="Guardar">
 			<input type="button" value="Cancelar">
@@ -75,9 +76,9 @@
 	<h2 class="titulo">Contacto</h2>
      <p class="p">Correo Electrónico: llanosmateo321@gmail.com</p>
      <p class="p">Síguenos en redes sociales:</p>
-     <a class="a" href="https://www.facebook.com/" target="_blank">Facebook</a>
-     <a class="a" href="https://www.instagram.com/" target="_blank">Instagram</a>
-	 <a class="a" href="https://www.twitter.com/" target="_blank">Twitter</a>
+     <a class="volver" href="https://www.facebook.com/" target="_blank">Facebook</a>
+     <a class="volver" href="https://www.instagram.com/" target="_blank">Instagram</a>
+	 <a class="volver" href="https://www.twitter.com/" target="_blank">Twitter</a>
 </footer>
 </body>
 </html>
